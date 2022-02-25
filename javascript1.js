@@ -11,3 +11,12 @@ function tipCalc()
     document.getElementById("tipamount").innerText=tipamount.toFixed(2);
     document.getElementById("peramt").innerText = perpersonamount.toFixed(2);
 }
+function changeMode(n)
+{
+    if(n==1)
+    {
+        document.getElementById("changemode").setAttribute("style","background:black; color:white");
+    }else{
+        document.getElementById("changemode").setAttribute("style","background:#F0FFF0; color: black")
+    }
+}
